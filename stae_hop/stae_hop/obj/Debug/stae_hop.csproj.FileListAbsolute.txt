@@ -1,0 +1,6 @@
+H:\For - önn 4\stae_hop\stae_hop\bin\Debug\stae_hop.exe.config
+H:\For - önn 4\stae_hop\stae_hop\bin\Debug\stae_hop.exe
+H:\For - önn 4\stae_hop\stae_hop\bin\Debug\stae_hop.pdb
+H:\For - önn 4\stae_hop\stae_hop\obj\Debug\stae_hop.csprojResolveAssemblyReference.cache
+H:\For - önn 4\stae_hop\stae_hop\obj\Debug\stae_hop.exe
+H:\For - önn 4\stae_hop\stae_hop\obj\Debug\stae_hop.pdb
