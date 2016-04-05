@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TveirVigrar.cs" />
+    <Compile Include="MargirVigrar.cs" />
+    <Compile Include="Vigur.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

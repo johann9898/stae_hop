@@ -55,6 +55,37 @@ namespace stae_hop
                         Console.WriteLine("Stefnuhorn Vígurinn er " + answer);
                         Console.ReadKey();
                         break;
+                    case 3:
+                        int teljari = 1;
+                        double x = 0;
+                        double y = 0;
+                        List<Vigur> vigraListi = new List<Vigur>();
+                        while (true)
+                        {
+                            Console.WriteLine("Vigur "+ teljari);
+                            Console.Write("Efri tala: ");
+                            x = Convert.ToDouble(Console.ReadLine());
+                            Console.Write("Neðri tala: ");
+                            y = Convert.ToDouble(Console.ReadLine());
+                            vigraListi.Add(new Vigur(x, y));
+                            Console.WriteLine("\nHalda áfram? j/n");
+                            string s;
+                            if (((s = Console.ReadLine()) != String.Empty) && s[0] == 'n')
+                            {
+                                break;
+                            }
+                            teljari++;
+                        }
+                        foreach (Vigur v in vigraListi)
+                        {
+                            Console.WriteLine("\nVigurinn " + v);
+                            Console.WriteLine("Lengd vigurs: " + v.Lengd());
+                            Console.WriteLine("Hallatala vigurs: " + v.Hallatala());
+                            Console.WriteLine("Þvervigur: " + v.Þvervigur());
+                        }
+                        MargirVigrar vigrarnir = new MargirVigrar(vigraListi);
+
+                        break;
                 }
 
             } while (val != 3);
