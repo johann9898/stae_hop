@@ -83,12 +83,23 @@ namespace stae_hop
                             Console.WriteLine("Hallatala vigurs: " + v.Hallatala());
                             Console.WriteLine("Þvervigur: " + v.Þvervigur());
                         }
-                        MargirVigrar vigrarnir = new MargirVigrar(vigraListi);
 
+                        break;
+
+                    case 4:
+                        Aðferðir adferdir = new Aðferðir();
+                        Vigur v1 = new Vigur(5,8);
+                        Console.WriteLine(adferdir.Stefnuhorn(v1));
+
+                        Vigur v2 = new Vigur(3,-9);
+                        Console.WriteLine(adferdir.Stefnuhorn(v2));
+
+                        Console.WriteLine(adferdir.Stefnuhorn(v2) - adferdir.Stefnuhorn(v1));
+                        Console.ReadKey();
                         break;
                 }
 
-            } while (val != 3);
+            } while (true);
 
             Console.ReadKey();
 
