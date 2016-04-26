@@ -10,3 +10,9 @@ H:\GitHub\stae_hop\stae_hop\stae_hop\obj\Debug\stae_hop.pdb
 H:\GitHub\stae_hop\stae_hop\stae_hop\obj\Debug\stae_hop.csprojResolveAssemblyReference.cache
 H:\GitHub\stae_hop\stae_hop\stae_hop\bin\Debug\stae_hop.exe
 H:\GitHub\stae_hop\stae_hop\stae_hop\bin\Debug\stae_hop.pdb
+C:\Users\Lenovo\Desktop\stae_hop-master\stae_hop\stae_hop\bin\Debug\stae_hop.exe.config
+C:\Users\Lenovo\Desktop\stae_hop-master\stae_hop\stae_hop\obj\Debug\stae_hop.exe
+C:\Users\Lenovo\Desktop\stae_hop-master\stae_hop\stae_hop\obj\Debug\stae_hop.pdb
+C:\Users\Lenovo\Desktop\stae_hop-master\stae_hop\stae_hop\bin\Debug\stae_hop.exe
+C:\Users\Lenovo\Desktop\stae_hop-master\stae_hop\stae_hop\bin\Debug\stae_hop.pdb
+C:\Users\Lenovo\Desktop\stae_hop-master\stae_hop\stae_hop\obj\Debug\stae_hop.csprojResolveAssemblyReference.cache
